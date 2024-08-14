@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="325338fe-e780-4451-8f02-834ba21ef351">
+  <name>УправлениеИТФирмой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ИТ фирмой</value>
+  </synonym>
+  <comment>Фирмой ИТ управление</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e4b17210-2c70-444b-94d4-aed39615e1eb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="392b5273-bb8c-4fbb-903e-0891b5859796"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7c1e8afe-a095-42ae-ab90-da7db38e1ff9"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3c241099-9a3d-475b-8c21-ccb09c5a47a8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bcaa3dbf-3a8e-43b0-a5b1-9fbb363e46e1"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e2412713-06a0-4aa0-af16-5c6d15f719a9"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1a6c5d28-5801-4f92-a63d-99093e7c9457"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <version>1.0.0.2</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>ДП</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Дипломный проект</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>Белов Юрий Владимирович</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="c58971d1-cc9b-4a72-8e0c-d419b51cbad1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Отчетность</subsystems>
+  <subsystems>Subsystem.КадровыйУчет</subsystems>
+  <subsystems>Subsystem.Сделки</subsystems>
+  <subsystems>Subsystem.Служебное</subsystems>
+  <styleItems>StyleItem.ШрифтПомеченныхНаУдаление</styleItems>
+  <styleItems>StyleItem.ЦветПомеченныхНаУдаление</styleItems>
+  <sessionParameters>SessionParameter.ВремяНачалаСеанса</sessionParameters>
+  <sessionParameters>SessionParameter.СотрудникТекущегоПользователя</sessionParameters>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ДобавлениеИзменениеСотрудников</roles>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
+  <commonModules>CommonModule.СеансыВызовСервера</commonModules>
+  <commonModules>CommonModule.СотрудникиСервер</commonModules>
+  <commonModules>CommonModule.СотрудникиВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСИНН</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыСервер</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСФормамиКлиент</commonModules>
+  <functionalOptions>FunctionalOption.ВестиРасчетЗарплаты</functionalOptions>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <commonCommands>CommonCommand.ПечатьНаПринтер</commonCommands>
+  <commonCommands>CommonCommand.ПечатьСПредпросмотром</commonCommands>
+  <commonCommands>CommonCommand.УволенныеСотрудники</commonCommands>
+  <commonCommands>CommonCommand.РаботающиеСотрудники</commonCommands>
+  <commandGroups>CommandGroup.Печать</commandGroups>
+  <commandGroups>CommandGroup.БыстрыйДоступ</commandGroups>
+  <constants>Constant.ВестиРасчетЗарплаты</constants>
+  <constants>Constant.ВерсияКонфигурации</constants>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Упаковки</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.Событие</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <documentJournals>DocumentJournal.ДвиженияТоваров</documentJournals>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.ТипНоменклатуры</enums>
+  <enums>Enum.ТипСобытия</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <reports>Report.ОстаткиПоСкладам</reports>
+  <reports>Report.ОтчетПоПродажам</reports>
+  <reports>Report.ИсторияЦенПродажи</reports>
+  <dataProcessors>DataProcessor.ПроверкаДлительностиCеанса</dataProcessors>
+  <dataProcessors>DataProcessor.ПересчетПоступлений</dataProcessors>
+  <dataProcessors>DataProcessor.УстановкаЦенПродажи</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныПродажиНоменклатура</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+</mdclass:Configuration>

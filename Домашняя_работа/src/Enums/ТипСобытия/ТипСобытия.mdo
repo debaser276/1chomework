@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ad37ca7-d6a2-4ec2-b45e-a8a3dd8eaa4b">
+  <producedTypes>
+    <refType typeId="25d09118-fc85-41ad-8592-0bcc8eb17b95" valueTypeId="ed7ef2d3-487b-4d3e-9a76-d2d08d2cb5fb"/>
+    <listType typeId="651d213e-05d7-439e-8113-b3c8c113b367" valueTypeId="bc78bc93-6233-4c5a-8f01-a60076845b8d"/>
+    <managerType typeId="acfd962d-1c9e-43f4-9228-13f9dab63ae3" valueTypeId="9b52464c-9da6-4093-bfd1-3f73d620e6a8"/>
+  </producedTypes>
+  <name>ТипСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип события</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="19aaec7a-a650-4f35-99e3-bc7a759d23aa">
+    <name>Звонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звонок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83eb1f89-99c0-4216-9bdc-86c4295acc6c">
+    <name>Встреча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встреча</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8135fa3-79f8-4d65-8384-e4fc21662f01">
+    <name>Письмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Письмо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

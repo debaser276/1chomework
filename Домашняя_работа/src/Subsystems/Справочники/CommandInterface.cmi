@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.КонтактныеЛица.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Catalog.Упаковки.StandardCommand.OpenList</commands>
+      <commands>Catalog.Должности.StandardCommand.OpenList</commands>
+      <commands>Catalog.КонтактныеЛица.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>Catalog.КонтактныеЛица.StandardCommand.OpenList</commands>
+      <commands>Catalog.Должности.StandardCommand.OpenList</commands>
+      <commands>Catalog.Упаковки.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ВидыКонтактнойИнформации.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
+      <commands>Catalog.КонтактныеЛица.Command.СписокКонтактныхЛиц</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

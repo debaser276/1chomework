@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bec9d31-c9ab-4c14-b370-0da483070cb1">
+  <producedTypes>
+    <objectType typeId="bd255ee1-dd57-4d0f-adea-62d55556e2ad" valueTypeId="6971b7b3-1b8c-46d2-a233-7f7552a56e92"/>
+    <refType typeId="8e4df9e7-3e29-4266-8a61-de8066cb6ed8" valueTypeId="38ab9d04-0b41-4220-8ae8-6a3d474d8c0c"/>
+    <selectionType typeId="5c38e936-7b5d-4c32-a0d1-453a01f138b4" valueTypeId="96378e8d-c164-4c58-8250-01e5b5321078"/>
+    <listType typeId="da7711c6-9454-4119-bf20-4d6b01d8d7b6" valueTypeId="3093b7e2-6377-49d5-8a62-6979b40739a3"/>
+    <managerType typeId="0b940aa8-2168-40b9-8b52-1d4e3f76c1d7" valueTypeId="a92dace4-e229-4112-aff9-96c7173f4dd2"/>
+  </producedTypes>
+  <name>Упаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Упаковка</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
