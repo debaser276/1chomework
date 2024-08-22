@@ -115,4 +115,6 @@
   <dataProcessors>DataProcessor.УстановкаЦенПродажи</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныПродажиНоменклатура</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

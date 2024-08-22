@@ -15,4 +15,6 @@
   <content>DataProcessor.ПересчетПоступлений</content>
   <content>Document.УстановкаЦен</content>
   <content>DataProcessor.УстановкаЦенПродажи</content>
+  <content>AccumulationRegister.Товары</content>
+  <content>AccumulationRegister.Продажи</content>
 </mdclass:Subsystem>
