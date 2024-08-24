@@ -110,9 +110,12 @@
   <reports>Report.ОстаткиПоСкладам</reports>
   <reports>Report.ОтчетПоПродажам</reports>
   <reports>Report.ИсторияЦенПродажи</reports>
+  <reports>Report.АктуальныеЦеныПоставщиков</reports>
+  <reports>Report.ОстаткиТоваров</reports>
   <dataProcessors>DataProcessor.ПроверкаДлительностиCеанса</dataProcessors>
   <dataProcessors>DataProcessor.ПересчетПоступлений</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаЦенПродажи</dataProcessors>
+  <dataProcessors>DataProcessor.РасчетПремий</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныПродажиНоменклатура</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>

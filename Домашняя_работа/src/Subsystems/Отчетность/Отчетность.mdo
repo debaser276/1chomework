@@ -10,4 +10,7 @@
   <content>Report.ОтчетПоПродажам</content>
   <content>Report.ОстаткиПоСкладам</content>
   <content>Report.ИсторияЦенПродажи</content>
+  <content>Report.АктуальныеЦеныПоставщиков</content>
+  <content>Report.ОстаткиТоваров</content>
+  <content>DataProcessor.РасчетПремий</content>
 </mdclass:Subsystem>

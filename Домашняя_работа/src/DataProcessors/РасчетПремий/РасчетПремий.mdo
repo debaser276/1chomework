@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65a2d77a-7bce-4aee-a99b-c448c9f2ef01">
+  <producedTypes>
+    <objectType typeId="2d090546-eae2-48b4-8753-e0ab11325300" valueTypeId="80f4d1a6-ae6f-4c1f-851a-13f7bcd7dd3d"/>
+    <managerType typeId="934c5a96-e673-4f8c-a76b-c64f4c954b97" valueTypeId="ff0ff23c-a975-4d31-9c37-956ce001a4f2"/>
+  </producedTypes>
+  <name>РасчетПремий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет премий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасчетПремий.Form.Форма</defaultForm>
+  <forms uuid="44d739e8-bf74-4fd9-af3c-f642e9f57e26">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -114,6 +114,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.ОстаткиТоваров</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Номенклатура</name>
 		<right>
 			<name>Read</name>
@@ -588,6 +599,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.АктуальныеЦеныПоставщиков</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Контрагенты.Attribute.УдалитьПочтовыйАдрес</name>
 		<right>
 			<name>Edit</name>
@@ -603,6 +625,17 @@
 	</object>
 	<object>
 		<name>Document.Событие.Command.События</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.РасчетПремий</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
