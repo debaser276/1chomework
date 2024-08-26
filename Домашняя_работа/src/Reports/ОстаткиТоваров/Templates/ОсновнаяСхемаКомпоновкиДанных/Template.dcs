@@ -17,16 +17,25 @@
 			<dataPath>КоличествоОстаток</dataPath>
 			<field>КоличествоОстаток</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОстаток</dataPath>
+			<field>СуммаОстаток</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ТоварыОстатки.Номенклатура,
-	ТоварыОстатки.КоличествоОстаток
+	ТоварыОстатки.КоличествоОстаток,
+	ТоварыОстатки.СуммаОстаток
 ИЗ
 	РегистрНакопления.Товары.Остатки КАК ТоварыОстатки</query>
 	</dataSet>
 	<totalField>
 		<dataPath>КоличествоОстаток</dataPath>
 		<expression>Сумма(КоличествоОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаОстаток</dataPath>
+		<expression>Сумма(СуммаОстаток)</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -52,6 +61,9 @@
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>КоличествоОстаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаОстаток</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>

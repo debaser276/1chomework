@@ -44,7 +44,7 @@
   </copyright>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="c58971d1-cc9b-4a72-8e0c-d419b51cbad1">
@@ -101,6 +101,7 @@
   <documents>Document.ПоступлениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.УстановкаЦен</documents>
+  <sequences>Sequence.СкладскиеТовары</sequences>
   <documentJournals>DocumentJournal.ДвиженияТоваров</documentJournals>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
   <enums>Enum.Пол</enums>

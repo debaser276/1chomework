@@ -1445,6 +1445,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Sequence.СкладскиеТовары</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПоступлениеТоваровИУслуг</name>
 		<right>
 			<name>Read</name>
