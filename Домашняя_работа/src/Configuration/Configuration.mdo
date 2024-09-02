@@ -117,6 +117,7 @@
   <dataProcessors>DataProcessor.ПересчетПоступлений</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаЦенПродажи</dataProcessors>
   <dataProcessors>DataProcessor.РасчетПремий</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаПрайслистаКонтрагента</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныПродажиНоменклатура</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>

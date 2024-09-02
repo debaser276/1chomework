@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8f93c85-741e-44a1-82ac-570ce25db7d4">
+  <producedTypes>
+    <objectType typeId="f77d3b7c-00bd-488a-8a19-683f6a4b8894" valueTypeId="f8d411db-eb4c-4ead-b648-b99a688f86fb"/>
+    <managerType typeId="6fac565c-11b7-4dd1-8329-2264b315a1cb" valueTypeId="9f3a85a2-3509-4cbf-9a99-98444e868263"/>
+  </producedTypes>
+  <name>ЗагрузкаПрайслистаКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка прайслиста контрагента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПрайслистаКонтрагента.Form.Форма</defaultForm>
+  <attributes uuid="a4222c5f-d6d4-4857-a264-5edb5894aac3">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="418ae295-2bf5-4ae8-b12a-1377ca9497ff">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="c0ae0493-21a4-4111-bc05-7f1e27761886">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -17,4 +17,5 @@
   <content>DataProcessor.УстановкаЦенПродажи</content>
   <content>AccumulationRegister.Товары</content>
   <content>AccumulationRegister.Продажи</content>
+  <content>DataProcessor.ЗагрузкаПрайслистаКонтрагента</content>
 </mdclass:Subsystem>
